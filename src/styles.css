@@ -72,13 +72,20 @@ footer li{
     margin: 0;
     padding: 0
 }
+footer p{
+    margin-right: 20px;
+}
 .grid{
     display:grid;
     grid-template-columns:1fr 2fr 2fr;
+    margin: 0 20px;
 }
 section{
     max-width: 1200px;
     margin: 0 auto;
+}
+ .last-text{
+    text-align: center;
 }
 @media (max-width: 960px){
     header {
