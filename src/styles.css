@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -86,6 +86,9 @@ main p{
 .image-responsive {
     max-width: 100%;
 }
+section.secondary{
+    background-color: #F8F8F8;
+}
 footer {
     color: white;
     background-image: linear-gradient(rgba(39, 32, 68, 0.9),
@@ -102,6 +105,25 @@ footer li{
     margin: 0;
     padding: 0
 }
+.card{
+    background-color:white;
+    margin: 20px;
+    padding: 20px;
+}
+main h4{
+    margin: 0;
+}
+main h5{
+    margin:0;
+}
+.btn{
+    text-decoration: none;
+    background-color: #462CB2;
+    color: white;
+    display:block;
+    padding: 10px 40px;
+    text-align: center;
+}
 
 .grid{
     display:grid;
@@ -112,12 +134,18 @@ footer li{
     grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-columns-narrow{
     grid-template-columns: 1fr 2fr 2fr;
 }
 section{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+.text-center{
+    text-align: center;
 }
  .last-text{
     text-align: center;
